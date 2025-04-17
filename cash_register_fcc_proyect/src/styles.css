@@ -15,7 +15,7 @@
 body {
   background-color: var(--dark-blue);
   color: var(--light-gray);
-  background-image: url(/public/abarrotesStore.jpg);
+  background-image: url(https://raw.githubusercontent.com/SrKleyner/freeCodeCamp/refs/heads/main/cash_register_fcc_proyect/public/abarrotesStore.jpg);
   background-repeat: space;
   background-position: center;
 }

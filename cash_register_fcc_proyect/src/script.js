@@ -4,7 +4,6 @@ let priceScreen = document.getElementById("price-screen");
 const changeDue = document.getElementById("change-due");
 const purchasBtn = document.getElementById("purchase-btn");
 let cashDrawerDisplay = document.getElementById("cash-drawer-display");
-let unordererList = changeDue;
 
 let cid = [
   ["PENNY", 1.01],
@@ -134,7 +133,6 @@ cashDrawerDisplay.innerHTML = cashDisplay();
 purchasBtn.addEventListener("click", () => {
   cid.reverse();
   let cashValue = parseFloat(cash.value);
-  //const moneyInRegister = totalInCashRegister(cid);
   changeDue.value = "";
   if (cashValue !== price) {
     if (validationOfChange(cid, cashValue) < 0) {
